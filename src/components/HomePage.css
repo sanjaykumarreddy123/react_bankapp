@@ -1,0 +1,103 @@
+/* HomePage.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins','sans-serif';
+  box-shadow: 20px;
+  background-size: cover;
+  /* background: linear-gradient(to top, rgb(237, 227, 227),rgba(59, 57, 57, 0.5)50%), url(3.jpg);
+  background-size: cover; */
+
+}
+
+
+.container {
+  margin-top: 4rem;
+  text-align: center;
+  /* padding: 20px;
+  width: 1000px;
+  height: 250px;
+  overflow: hidden; Added to prevent overflow issues */
+
+  
+
+}
+
+.list-group-item {
+  padding: 0.75rem 1.25rem; 
+  margin-bottom: 0.5rem; 
+  border: black 3px solid;
+  color: black;
+}
+
+.left-column {
+  width: 50%;
+  height: 300px;
+  float: left;
+  display: grid;
+  align-items: center; /* Added for vertical alignment */
+  justify-content: center; /* Updated for horizontal alignment */
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+
+}
+
+.right-column {
+  width: 50%;
+  height: 300px;
+  float: right;
+  display: grid;
+  align-items: center; /* Added for vertical alignment */
+  justify-content: center; /* Updated for horizontal alignment */
+  text-align: center;
+  vertical-align: middle;
+}
+
+.icon-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.linkedin-icon:hover {
+  color: green;
+}
+
+.instagram-icon:hover {
+  color: rgb(197, 178, 178);
+}
+
+.gmail-icon:hover {
+  color: blueviolet;
+}
+
+.img-thumbnail {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+  text-align: right;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  margin-right: 0.5rem; 
+}
+
+.make {
+  display: flex;
+}

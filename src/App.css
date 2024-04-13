@@ -1,0 +1,32 @@
+.container-fluid {
+  background-color: #f8f9fa; /* Set background color for the entire app */
+  padding: 20px; /* Add some padding to the container */
+  background: linear-gradient(to top, rgb(237, 227, 227),rgba(59, 57, 57, 0.5)50%), url(1.jpg);
+  background-size: cover;
+}
+
+.row {
+  margin-bottom: 100px; /* Add some space between rows */
+}
+
+/* Define styles for the header */
+.header {
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* Text color */
+  padding: 10px 0; /* Add some padding */
+  text-align: center; /* Center align text */
+}
+
+/* Define styles for the footer */
+.footer {
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* Text color */
+  padding: 10px 0; /* Add some padding */
+  text-align: center; /* Center align text */
+}
+
+/* Define styles for the main content */
+.main-content {
+  background-color: #fff; /* Light background color */
+  padding: 20px; /* Add some padding */
+}

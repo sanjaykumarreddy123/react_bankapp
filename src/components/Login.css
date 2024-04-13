@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+.from_grope{
+    /* margin:10px ;
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    background-color: transparent;
+    box-shadow: 10px;
+    vertical-align: -webkit-baseline-middle;
+    text-align: center;
+    display: table-cell; */
+    color: black;
+
+}
+h3{
+    color: black;
+}
